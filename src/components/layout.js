@@ -22,12 +22,13 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+      {/* <header className="global-header">{header}</header> */}
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        {/* © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.gatsbyjs.com">Gatsby</a> */}
+        인생은 회전목마
       </footer>
     </div>
   )
